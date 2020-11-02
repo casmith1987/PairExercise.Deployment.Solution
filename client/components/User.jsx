@@ -1,5 +1,9 @@
 import React from 'react'
 
+const test = _ => {
+  console.log('hello world')
+}
+
 export default (props) => (
   <tr>
     <td className="user--first-name">{props.firstName}</td>
